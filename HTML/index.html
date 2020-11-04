@@ -22,20 +22,19 @@
 		<!-- Custom CSS -->
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/style-color.css" rel="stylesheet">
-
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/logo/favicon.ico">
 	</head>
 	
 	<body>		
-		<!-- modal for booking ticket form -->
+		<!-- modal for booking ticket cai quan que form -->
 		<div class="modal fade" id="bookTicket" tabindex="-1" role="dialog" aria-labelledby="BookTicket">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">VÉ ĐẶT SỰ KIỆN &nbsp; <small><span class="label label-success">Available</span> &nbsp; <span class="label label-danger">Not Available</span></small></h4>
+						<h4 class="modal-title" id="myModalLabel">Name of The Event &nbsp; <small><span class="label label-success">Available</span> &nbsp; <span class="label label-danger">Not Available</span></small></h4>
 					</div>
 					<!-- form for events ticket booking -->
 					<form>
@@ -45,34 +44,29 @@
 								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@mail.com">
 							</div>
 							<div class="form-group">
-								<label for="exampleInputContact">Điện thoại</label>
+								<label for="exampleInputContact">Contact</label>
 								<input type="text" class="form-control" id="exampleInputContact" placeholder="+91 55 5555 5555">
 							</div>
 							<div class="form-group">
-								<label for="exampleInputSeats">Số lượng vé đặt</label>
+								<label for="exampleInputSeats">Number of Tickets</label>
 								<select class="form-control" id="exampleInputSeats">
 									<option>1</option>
 									<option>2</option>
 									<option>3</option>
 									<option>4</option>
 									<option>5</option>
-									<option>6</option>
-									<option>7</option>
-									<option>8</option>
-									<option>9</option>
-									<option>10</option>
 								</select>
 							</div>
 							<div class="checkbox">
 								<label>
-									<input type="checkbox"> Tôi đồng ý với các Điều khoản Dịch vụ.
+									<input type="checkbox"> I accept the Terms of Service
 								</label>
 							</div>
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
 							<!-- link to payment gatway here -->
-							<button type="button" class="btn btn-primary" data-dismiss="modal">Đặt ngay</button>
+							<button type="button" class="btn btn-primary">Đặt ngay</button>
 						</div>
 					</form>
 				</div>
@@ -126,14 +120,13 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#featuredalbum">Âm nhạc đề xuất</a></li>
-								<li><a href="#latestalbum">Bảng xếp hạng</a></li>
-								
+								<li><a href="#latestalbum">Âm nhạc đề xuất</a></li>
+								<li><a href="#featuredalbum">Bảng xếp hạng</a></li>
 								<li><a href="#joinus">Join Us</a></li>
-								<li><a href="#portfolio">Sự kiện</a></li>
-								<li><a href="#events">Tin tức</a></li>
-								<li><a href="#team">Nghệ sĩ nổi bật</a></li>
-								<li><a href="#contact">Liên hệ</a></li>
+								<li><a href="#portfolio">Portfolio</a></li>
+								<li><a href="#events">Events</a></li>
+								<li><a href="#team">Team</a></li>
+								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
@@ -190,9 +183,179 @@
 			<!-- block for animate navigation menu -->
 			<div class="nav-animate"></div>
 			
+			<!-- Hero block area -->
+			<div id="latestalbum" class="hero pad">
+				<div class="container">
+					<!-- hero content -->
+					<div class="hero-content ">
+						<!-- heading -->
+						<h2>Âm Nhạc Đề Xuất</h2>
+						<hr>
+						
+					</div>
+					<!-- hero play list -->
+					<div class="hero-playlist">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<!-- music album image -->
+								<div class="figure">
+									<!-- image -->
+									<img class="img-responsive" src="img/album/1.jpg" alt="" />
+									<!-- disk image -->
+									<img class="img-responsive disk" src="img/album/disk.png" alt="" />
+								</div>
+								<!-- album details -->
+								<div class="album-details">
+									<!-- title -->
+									<h4>Perfect Melodi</h4>
+									<!-- composed by -->
+									<h5>By Himanshu</h5>
+									<!-- paragraph -->
+									<p>Lorem Ipsum has been the industry's standard dummy text ever since 1500.</p>
+									<!-- button -->
+									<a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i class="fa fa-play"></i>&nbsp; Play Now</a>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<!-- play list -->
+								<div class="playlist-content">
+									<ul class="list-unstyled">
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Melodi Song Track One</h4>
+												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<a href="#"><i class="fa fa-play"></i></a>
+												<a href="#"><i class="fa fa-pause"></i></a>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Melodi Song Track Two</h4>
+												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<a href="#"><i class="fa fa-play"></i></a>
+												<a href="#"><i class="fa fa-pause"></i></a>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Melodi Song Track Three</h4>
+												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<a href="#"><i class="fa fa-play"></i></a>
+												<a href="#"><i class="fa fa-pause"></i></a>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Melodi Song Track Four</h4>
+												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<a href="#"><i class="fa fa-play"></i></a>
+												<a href="#"><i class="fa fa-pause"></i></a>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Melodi Song Track Five</h4>
+												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<a href="#"><i class="fa fa-play"></i></a>
+												<a href="#"><i class="fa fa-pause"></i></a>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Melodi Song Track Six</h4>
+												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<a href="#"><i class="fa fa-play"></i></a>
+												<a href="#"><i class="fa fa-pause"></i></a>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Melodi Song Track Seven</h4>
+												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<a href="#"><i class="fa fa-play"></i></a>
+												<a href="#"><i class="fa fa-pause"></i></a>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Melodi Song Track Eight</h4>
+												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<a href="#"><i class="fa fa-play"></i></a>
+												<a href="#"><i class="fa fa-pause"></i></a>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ hero end -->
 			
-			
-			
+			<!-- promo -->
+			<div class="promo parallax-one pad">
+				<div class="container">
+					<!-- promo element -->
+					<div class="promo-element ">
+						<!-- heading -->
+						<h3>Music An Art...</h3>
+						<!-- paragraph -->
+						<p>Music is an art form and cultural activity whose medium is sound organized in time. The common elements of music are <strong>pitch</strong>, <strong>rhythm</strong>, <strong>dynamics</strong> and the sonic qualities of <strong>timbre</strong> and <strong>texture</strong>.</p>
+						<!-- link -->
+						<a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a>
+					</div>
+				</div>
+			</div>
+			<!--/ promo end -->
 			
 			<!-- featured abbum -->
 			<div class="featured pad" id="featuredalbum">
@@ -200,310 +363,147 @@
 					<!-- default heading -->
 					<div class="default-heading">
 						<!-- heading -->
-						<h2>Âm nhạc đề xuất</h2>
+						<h2>Featured Album</h2>
 						<!-- paragraph -->
 						<p> Chúng ta hát những <strong class="theme-color">Bài hát</strong> hay nhất và giờ chúng ta điều khiển  <strong class="theme-color">Âm nhạc</strong> đỉnh nhất Thế giới.</p>
 					</div>
-					
-			<!-- featured album elements -->
-			<div class="featured-element">
-				<div class="row">
-					<div class="col-md-4 col-sm-6">
-						<!-- featured item -->
-						<div class="featured-item ">
-							<!-- image container -->
-							<div class="figure">
-								<!-- image -->
-								<img class="img-responsive" src="img/featured/1.jpg" alt="" />
-							
+					<!-- featured album elements -->
+					<div class="featured-element">
+						<div class="row">
+							<div class="col-md-4 col-sm-6">
+								<!-- featured item -->
+								<div class="featured-item ">
+									<!-- image container -->
+									<div class="figure">
+										<!-- image -->
+										<img class="img-responsive" src="img/featured/1.jpg" alt="" />
+										<!-- paragraph -->
+										<p>There are many variations of passages available, but the majority have suffered Lorem alteration in some form, by injected look even slightly believable.</p>
+									</div>
+									<!-- featured information -->
+									<div class="featured-item-info">
+										<!-- featured title -->
+										<h4>Power Pop</h4>
+										<!-- horizontal line -->
+										<hr />
+										<!-- some responce from social medial or web likes -->
+										<p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+									</div>
+								</div>
 							</div>
-							<!-- featured information -->
-							<div class="featured-item-info">
-								<!-- featured title -->
-								<h4>Câu lạc bộ hits vol 5</h4>
-								<!-- horizontal line -->
-								<hr />
-								<!-- some responce from social medial or web likes -->
-								<p>1824+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Share</span></p>
+							<div class="col-md-4 col-sm-6">
+								<!-- featured item -->
+								<div class="featured-item ">
+									<!-- image container -->
+									<div class="figure">
+										<!-- image -->
+										<img class="img-responsive" src="img/featured/2.jpg" alt="" />
+										<!-- paragraph -->
+										<p>There are many variations of passages available, but the majority have suffered Lorem alteration in some form, by injected look even slightly believable.</p>
+									</div>
+									<!-- featured information -->
+									<div class="featured-item-info">
+										<!-- featured title -->
+										<h4>Bad Brains</h4>
+										<!-- horizontal line -->
+										<hr />
+										<!-- some responce from social medial or web likes -->
+										<p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<!-- featured item -->
-						<div class="featured-item ">
-							<!-- image container -->
-							<div class="figure">
-								<!-- image -->
-								<img class="img-responsive" src="img/featured/2.jpg" alt="" />
-								<!-- paragraph -->
-								
+							<div class="col-md-4 col-sm-6">
+								<!-- featured item -->
+								<div class="featured-item ">
+									<!-- image container -->
+									<div class="figure">
+										<!-- image -->
+										<img class="img-responsive" src="img/featured/3.jpg" alt="" />
+										<!-- paragraph -->
+										<p>There are many variations of passages available, but the majority have suffered Lorem alteration in some form, by injected look even slightly believable.</p>
+									</div>
+									<!-- featured information -->
+									<div class="featured-item-info">
+										<!-- featured title -->
+										<h4>The Mars Volta</h4>
+										<!-- horizontal line -->
+										<hr />
+										<!-- some responce from social medial or web likes -->
+										<p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+									</div>
+								</div>
 							</div>
-							<!-- featured information -->
-							<div class="featured-item-info">
-								<!-- featured title -->
-								<h4>K-pop thời ấy vol.9</h4>
-								<!-- horizontal line -->
-								<hr />
-								<!-- some responce from social medial or web likes -->
-								<p>1010+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 745+ <span class="label label-theme">Share</span></p>
+							<div class="col-md-4 col-sm-6">
+								<!-- featured item -->
+								<div class="featured-item ">
+									<!-- image container -->
+									<div class="figure">
+										<!-- image -->
+										<img class="img-responsive" src="img/featured/4.jpg" alt="" />
+										<!-- paragraph -->
+										<p>There are many variations of passages available, but the majority have suffered Lorem alteration in some form, by injected look even slightly believable.</p>
+									</div>
+									<!-- featured information -->
+									<div class="featured-item-info">
+										<!-- featured title -->
+										<h4>Dirty Dancing</h4>
+										<!-- horizontal line -->
+										<hr />
+										<!-- some responce from social medial or web likes -->
+										<p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<!-- featured item -->
-						<div class="featured-item ">
-							<!-- image container -->
-							<div class="figure">
-								<!-- image -->
-								<img class="img-responsive" src="img/featured/3.jpg" alt="" />
-								<!-- paragraph -->
-								
+							<div class="col-md-4 col-sm-6">
+								<!-- featured item -->
+								<div class="featured-item ">
+									<!-- image container -->
+									<div class="figure">
+										<!-- image -->
+										<img class="img-responsive" src="img/featured/5.jpg" alt="" />
+										<!-- paragraph -->
+										<p>There are many variations of passages available, but the majority have suffered Lorem alteration in some form, by injected look even slightly believable.</p>
+									</div>
+									<!-- featured information -->
+									<div class="featured-item-info">
+										<!-- featured title -->
+										<h4>Hotel California</h4>
+										<!-- horizontal line -->
+										<hr />
+										<!-- some responce from social medial or web likes -->
+										<p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+									</div>
+								</div>
 							</div>
-							<!-- featured information -->
-							<div class="featured-item-info">
-								<!-- featured title -->
-								<h4>Nhạc remix</h4>
-								<!-- horizontal line -->
-								<hr />
-								<!-- some responce from social medial or web likes -->
-								<p>624+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 495+ <span class="label label-theme">Share</span></p>
+							<div class="col-md-4 col-sm-6">
+								<!-- featured item -->
+								<div class="featured-item ">
+									<!-- image container -->
+									<div class="figure">
+										<!-- image -->
+										<img class="img-responsive" src="img/featured/6.jpg" alt="" />
+										<!-- paragraph -->
+										<p>There are many variations of passages available, but the majority have suffered Lorem alteration in some form, by injected look even slightly believable.</p>
+									</div>
+									<!-- featured information -->
+									<div class="featured-item-info">
+										<!-- featured title -->
+										<h4>Punk Compilation</h4>
+										<!-- horizontal line -->
+										<hr />
+										<!-- some responce from social medial or web likes -->
+										<p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<!-- featured item -->
-						<div class="featured-item ">
-							<!-- image container -->
-							<div class="figure">
-								<!-- image -->
-								<img class="img-responsive" src="img/featured/4.jpg" alt="" />
-								<!-- paragraph -->
-								
-							</div>
-							<!-- featured information -->
-							<div class="featured-item-info">
-								<!-- featured title -->
-								<h4>psycho songs</h4>
-								<!-- horizontal line -->
-								<hr />
-								<!-- some responce from social medial or web likes -->
-								<p>596+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 216+ <span class="label label-theme">Share</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<!-- featured item -->
-						<div class="featured-item ">
-							<!-- image container -->
-							<div class="figure">
-								<!-- image -->
-								<img class="img-responsive" src="img/featured/5.jpg" alt="" />
-								<!-- paragraph -->
-								
-							</div>
-							<!-- featured information -->
-							<div class="featured-item-info">
-								<!-- featured title -->
-								<h4>hot usuk 11-2020</h4>
-								<!-- horizontal line -->
-								<hr />
-								<!-- some responce from social medial or web likes -->
-								<p>472+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 189+ <span class="label label-theme">Share</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<!-- featured item -->
-						<div class="featured-item ">
-							<!-- image container -->
-							<div class="figure">
-								<!-- image -->
-								<img class="img-responsive" src="img/featured/6.jpg" alt="" />
-								<!-- paragraph -->
-								
-							</div>
-							<!-- featured information -->
-							<div class="featured-item-info">
-								<!-- featured title -->
-								<h4>motivations</h4>
-								<!-- horizontal line -->
-								<hr />
-								<!-- some responce from social medial or web likes -->
-								<p>301+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 114+ <span class="label label-theme">Share</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- features end -->
-			<!-- promo -->
-			<div class="promo parallax-one pad">
-				<div class="container">
-					<!-- promo element -->
-					<div class="promo-element ">
-						<!-- heading -->
-						<h3>Âm nhạc là nghệ thuật...</h3>
-						<!-- paragraph -->
-						<p>Âm nhạc là một dạng nghệ thuật và hoạt động thưởng thức trong mọi hoạt động cuộc sống.</p>
-						<!-- link -->
-						<a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a>
-					</div>
-				</div>
-			</div>
-			<!--/ promo end -->
-	<!-- Hero block area -->
-	<div id="latestalbum" class="hero pad">
-		<div class="container">
-			<!-- hero content -->
-			<div class="hero-content ">
-				<!-- heading -->
-				<h2>BẢNG XẾP HẠNG</h2>
-				<hr>
-				
-			</div>
-			<!-- hero play list -->
-			<div class="hero-playlist">
-				<div class="row">
-					<div class="col-md-6 col-sm-6">
-						<!-- music album image -->
-						<div class="figure">
-							<!-- image -->
-							<img class="img-responsive" src="img/album/edm.jpg" alt="" />
-							<!-- disk image -->
-							<img class="img-responsive disk" src="img/album/disk.png" alt="" />
-						</div>
-						<!-- album details -->
-						<div class="album-details">
-							<!-- button -->
-							<a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i class="fa fa-play"></i>&nbsp;Phát ngẫu nhiên</a>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<!-- play list -->
-						<div class="playlist-content">
-							<ul class="list-unstyled">
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Melodi Song Track One</h4>
-										<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Melodi Song Track Two</h4>
-										<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Melodi Song Track Three</h4>
-										<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Melodi Song Track Four</h4>
-										<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Melodi Song Track Five</h4>
-										<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Melodi Song Track Six</h4>
-										<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Melodi Song Track Seven</h4>
-										<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Melodi Song Track Eight</h4>
-										<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<!--/ hero end -->
+			<!-- features end -->
+			
+			
+	
 			
 			<!-- call to action -->
 			<div class="cta parallax-one pad">
@@ -513,14 +513,14 @@
 						<div class="row">
 							<div class="col-md-9 col-sm-8">
 								<!-- heading -->
-								<h3>ST Studio, lựa chọn tuyệt vời nhất của bạn!</h3>
+								<h3>Melodi, A Fully Rock Album Pro</h3>
 								<!-- paragraph -->
-								<p>Với ST Studio trải nghiệm âm nhạc tuyệt vời của bạn là niềm tự hào của chúng tôi.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim sectetur adipiscing elit, sed do eiusmod tempoad minim veniam consequat.</p>
 							</div>
 							<div class="col-md-3 col-sm-4">
 								<div class="cta-btn text-center">
 									<!-- purchase now button -->
-									<a href="#" class="btn btn-default btn-lg">Đăng kí</a>
+									<a href="#" class="btn btn-default btn-lg">Download Now</a>
 								</div>
 							</div>
 						</div>
@@ -535,19 +535,19 @@
 					<!-- default heading -->
 					<div class="default-heading">
 						<!-- heading -->
-						<h2>Khác biệt - Tạo nên sự khác biệt</h2>
+						<h2>Work With Us</h2>
 					</div>
 					<!-- why work with us content -->
 					<div class="why-content">
 						<!-- paragraph -->
-						<p class="why-message">"Chúng tôi tiên phong trong việc đem đến âm nhạc đỉnh cao cho tâm hồn của bạn"</p>
+						<p class="why-message">It would be a great pleasure to have you in our team, follow these steps to join us.</p>
 						<div class="row">
 							<div class="col-md-3 col-sm-6">
 								<!-- why work with us item -->
 								<div class="why-item  delay-one">
 									<span class="why-number">1</span>
 									<!-- paragraph -->
-									<p>ST-STUDIO cung cấp âm nhạc bản quyền hơn 2000 nghệ sĩ trong và ngoài nước với hơn 100.000 bài hát thuộc 43 thể loại âm nhạc khác nhau.</p>
+									<p>Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus antium totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -555,7 +555,7 @@
 								<div class="why-item  delay-two">
 									<span class="why-number">2</span>
 									<!-- paragraph -->
-									<p>Luôn luôn cập nhật những ca khúc, tác phẩm âm nhạc xuất bản sớm nhất trên thị trường, chỉ sau 24h ngay khi tác phẩm được công bố ra mắt.</p>
+									<p>Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accu santium totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -563,7 +563,7 @@
 								<div class="why-item  delay-three">
 									<span class="why-number">3</span>
 									<!-- paragraph -->
-									<p>Đội ngũ của ST-STUDIO với bề dày 5+ năm kinh nghiệm trong lĩnh vực âm nhạc, luôn chọn lọc những tác phẩm tiêu biểu nhất, nổi bật nhất đến với các bạn.</p>
+									<p>Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus antium totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -571,14 +571,14 @@
 								<div class="why-item  delay-four">
 									<span class="why-number">4</span>
 									<!-- paragraph -->
-									<p>Tất cả tác phẩm âm nhạc tại ST-STUDIO đều có chất lượng lossless, đảm bảo mang laij cho bạn những trải nghiệm chưa từng có.</p>
+									<p>Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus antium totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.</p>
 								</div>
 							</div>
 						</div>
 						<!-- apply button -->
 						<div class="apply-btn">
 							<!-- button line -->
-							<a class="btn btn-lg btn-theme" href="#">Đăng kí ngay</a>
+							<a class="btn btn-lg btn-theme" href="#">Join Now</a>
 						</div>
 					</div>
 				</div>
@@ -591,15 +591,15 @@
 					<!-- news letter inner content -->
 					<div class="news-content ">
 						<!-- heading -->
-						<h3>Đăng kí để nhận Thư Tin tức</h3>
+						<h3>Sign Up For Newsletter</h3>
 						<!-- paragraph -->
-						<p><strong>Liên hệ với chúng tôi</strong> và cho chúng tôi biết nếu bạn có bất kỳ câu hỏi nào, đừng quên Đăng ký để nhận được nhiều nội dung tuyệt vời hơn bằng cách nhập Thư dưới đây.</p>
+						<p><strong>Contact Us</strong> and let us know if you have any questions, Don't forget to subscribe for more awesome stuff by typing mail bellow.</p>
 						<!-- subscribe form -->
 						<form>
 							<div class="input-group">
 								<input type="text" class="form-control input-lg" placeholder="Email">
 								<span class="input-group-btn">
-									<button class="btn btn-default btn-lg" type="button">Đăng kí</button>
+									<button class="btn btn-default btn-lg" type="button">Subscribe</button>
 								</span>
 							</div><!-- /input-group -->
 						</form>
@@ -613,7 +613,7 @@
 					<!-- default heading -->
 					<div class="default-heading">
 						<!-- heading -->
-						<h2>Sự kiện</h2>
+						<h2>Portfolio</h2>
 					</div>
 				</div>
 				<!-- portfolio -->
@@ -626,13 +626,11 @@
 						<!-- on mouse hover details -->
 						<div class="p-hover">
 							<!-- heading /title -->
-							<h3>AMBITION LIVESHOW</h3><hr>
+							<h3>Album Title</h3><hr>
 							<!-- project details -->
-							<p>Sơn Tùng M-TP</p>
-							<p>15:00, 08/11/2020</p>
-							<p>Địa chỉ: 279 Nguyễn Tri Phương, Phường 5, quận 10, TP Hồ Chí Minh</p>
-							<!-- buy ticket button link -->
-							<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Đặt vé</button>
+							<p>Some details about album.</p>
+							<!-- icon -->
+							<a href="#"><i class="fa fa-share"></i></a>
 						</div>
 					</div>
 					<div class="item">
@@ -646,8 +644,8 @@
 							<h3>Album Title</h3><hr>
 							<!-- project details -->
 							<p>Some details about album.</p>
-						<!-- buy ticket button link -->
-						<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Đặt vé</button>
+							<!-- icon -->
+							<a href="#"><i class="fa fa-share"></i></a>
 						</div>
 					</div>
 					<div class="item">
@@ -661,8 +659,8 @@
 							<h3>Album Title</h3><hr>
 							<!-- project details -->
 							<p>Some details about album.</p>
-							<!-- buy ticket button link -->
-							<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Đặt vé</button>
+							<!-- icon -->
+							<a href="#"><i class="fa fa-share"></i></a>
 						</div>
 					</div>
 					<div class="item">
@@ -676,8 +674,8 @@
 							<h3>Album Title</h3><hr>
 							<!-- project details -->
 							<p>Some details about album.</p>
-							<!-- buy ticket button link -->
-							<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Đặt vé</button>
+							<!-- icon -->
+							<a href="#"><i class="fa fa-share"></i></a>
 						</div>
 					</div>
 					<div class="item">
@@ -691,8 +689,8 @@
 							<h3>Album Title</h3><hr>
 							<!-- project details -->
 							<p>Some details about album.</p>
-							<!-- buy ticket button link -->
-							<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Đặt vé</button>
+							<!-- icon -->
+							<a href="#"><i class="fa fa-share"></i></a>
 						</div>
 					</div>
 					<div class="item">
@@ -706,9 +704,8 @@
 							<h3>Album Title</h3><hr>
 							<!-- project details -->
 							<p>Some details about album.</p>
-							
-							<!-- buy ticket button link -->
-							<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Đặt vé</button>
+							<!-- icon -->
+							<a href="#"><i class="fa fa-share"></i></a>
 						</div>
 					</div>
 					<div class="item">
@@ -719,12 +716,11 @@
 						<!-- on mouse hover details -->
 						<div class="p-hover">
 							<!-- heading /title -->
-							<h3>MARSHMELLO & FRIEND</h3><hr>
+							<h3>Album Title</h3><hr>
 							<!-- project details -->
-							<p>07:00, 15/11/2020</p>
-							<p>Địa chỉ: 279 Nguyễn Tri Phương, Phường 5, quận 10, TP Hồ Chí Minh</p>
-						<!-- buy ticket button link -->
-						<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Đặt vé</button>
+							<p>Some details about album.</p>
+							<!-- icon -->
+							<a href="#"><i class="fa fa-share"></i></a>
 						</div>
 					</div>
 					<div class="item">
@@ -738,13 +734,13 @@
 							<h3>Album Title</h3><hr>
 							<!-- project details -->
 							<p>Some details about album.</p>
-							<!-- buy ticket button link -->
-							<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Đặt vé</button>
+							<!-- icon -->
+							<a href="#"><i class="fa fa-share"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="text-center">
-					<a href="#" class="btn btn-lg btn-theme">Xem thêm</a>
+					<a href="#" class="btn btn-lg btn-theme">View more</a>
 				</div>
 				<!-- portfolio end -->
 			</div>
@@ -791,8 +787,7 @@
 										<!-- paragraph -->
 										<p>Vào 18 giờ ngày 3/11 (giờ địa phương), IU đã chính thức phát hành MV "BBIBBI". Sản phẩm này nằm trong dự án kỉ niệm 10 năm ca hát của nữ ca sĩ... <a href="#">more</a></p>
 										<!-- buy ticket button link -->
-										<!-- xem thêm -->
-									<button href="#" class="btn btn-lg btn-theme" data-toggle="modal" >Xem thêm</button>
+										<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Chi tiết</button>
 									</div>
 								</div>
 							</div>
@@ -826,8 +821,7 @@
 										<!-- paragraph -->
 										<p>Tập cuối cùng vòng Bứt phá khép lại khiến loạt người hâm mộ “lặng người” vì chuỗi cảm xúc thăng hoa từ 6 tiết mục của 4 đội... <a href="#">more</a></p>
 										<!-- buy ticket button link -->
-										<!-- xem thêm -->
-									<button href="#" class="btn btn-lg btn-theme" data-toggle="modal" >Xem thêm</button>
+										<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Chi tiết</button>
 									</div>
 								</div>
 							</div>
@@ -860,8 +854,8 @@
 										<!-- horizontal line --><hr />
 										<!-- paragraph -->
 										<p>Mới đây, phiên bản tiếng Anh của bài hát "Baby shark" đã chạm mốc 7,38 tỷ lượt xem trên Youtube, vượt qua bản hit "Despacito" của Luis Fonsi và Daddy Yankee... <a href="#">more</a></p>
-									<!-- xem thêm -->
-									<button href="#" class="btn btn-lg btn-theme" data-toggle="modal" >Xem thêm</button>
+										<!-- buy ticket button link -->
+										<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Chi tiết</button>
 									</div>
 								</div>
 							</div>
@@ -895,8 +889,7 @@
 										<!-- paragraph -->
 										<p>MV "Nói chia tay thật khó" là sự kết hợp của bộ 3 Thùy Chi - Trấn Thành - ViruSs ra mắt vào ngày 17/10 nhận được không ít lời khen ngợi từ phía khán giả. Tuy nhiên... <a href="#">more</a></p>
 										<!-- buy ticket button link -->
-										<!-- xem thêm -->
-									<button href="#" class="btn btn-lg btn-theme" data-toggle="modal" >Xem thêm</button>
+										<button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Chi tiết</button>
 									</div>
 								</div>
 							</div>
@@ -912,9 +905,38 @@
 					<!-- default heading -->
 					<div class="default-heading">
 						<!-- heading -->
-						<h2>Nghệ sĩ nổi bật</h2>
-				
-					
+						<h2>Who We Are?</h2>
+					</div>
+					<!-- about what we are like content -->
+					<div class="about-what-we">
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<div class="what-we-item ">
+									<!-- heading with icon -->
+									<h3><i class="fa fa-heartbeat"></i> What we do?</h3>
+									<!-- paragraph -->
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit occaecat cupidatat non id est laborum.</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="what-we-item ">
+									<!-- heading with icon -->
+									<h3><i class="fa fa-hand-o-up"></i> Why choose us?</h3>
+									<!-- paragraph -->
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit occaecat cupidatat non id est laborum.</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="what-we-item ">
+									<!-- heading with icon -->
+									<h3><i class="fa fa-map-marker"></i> Where we are?</h3>
+									<!-- paragraph -->
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit occaecat cupidatat non id est laborum.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!-- our team -->
 				<div class="team">
 					<div class="container">	
@@ -937,8 +959,8 @@
 											</div>
 										</div>
 										<!-- Member Details -->
-										<h3>Sơn Tùng M-TP</h3>
-										<span class="designation">Ca sĩ</span>
+										<h3>Stacey Kowalski</h3>
+										<span class="designation">Guitarist</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
@@ -957,8 +979,8 @@
 											</div>
 										</div>
 										<!-- Member Details -->
-										<h3>IU</h3>
-										<span class="designation">Ca sĩ</span>
+										<h3>Joanna Koo</h3>
+										<span class="designation">Clarinetist</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
@@ -977,8 +999,8 @@
 											</div>
 										</div>
 										<!-- Member Details -->
-										<h3>BIGBANG</h3>
-										<span class="designation">Nhóm nhạc</span>
+										<h3>Mark Laredo</h3>
+										<span class="designation">Accordionist</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
@@ -997,8 +1019,8 @@
 											</div>
 										</div>
 										<!-- Member Details -->
-										<h3>Tae Yeon</h3>
-										<span class="designation">Ca sĩ</span>
+										<h3>Belie Costa</h3>
+										<span class="designation">Keyboardist</span>
 									</div>
 								</div>
 							</div>
@@ -1039,7 +1061,7 @@
 					<!-- default heading -->
 					<div class="default-heading">
 						<!-- heading -->
-						<h2>Liên hệ</h2>
+						<h2>Contact Us</h2>
 					</div>
 					<div class="row">	
 						<div class="col-md-4 col-sm-4">
@@ -1048,7 +1070,7 @@
 								<!-- big icon -->
 								<i class="fa fa-street-view"></i>
 								<!-- contact details  -->
-								<span class="contact-details">279 Nguyễn Tri Phương, phường 5, quận 10, TP.HCM.</span>
+								<span class="contact-details">#30/67, 5th Street, Mega Market Circle, New Delhi - 625001</span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -1057,7 +1079,7 @@
 								<!-- big icon -->
 								<i class="fa fa-wifi"></i>
 								<!-- contact details  -->
-								<span class="contact-details">ststudio@gmail.com</span>
+								<span class="contact-details">music.site@melodi.com</span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -1066,39 +1088,39 @@
 								<!-- big icon -->
 								<i class="fa fa-phone"></i>
 								<!-- contact details  -->
-								<span class="contact-details">09xxxxxxxxxx</span>
+								<span class="contact-details">555 555 5555</span>
 							</div>
 						</div>
 					</div>
 					<!-- form content -->
 					<div class="form-content ">
 						<!-- paragraph -->
-						<p>Bạn có ý tưởng gì cho chúng tôi không? Hãy để lại lời nhắn ở đây nhé!</p>
+						<p>Do you have any idea in your mind? Drop us a line.</p>
 						<form role="form" id="contactForm" method="post">
 							<div class="row">
 								<div class="col-md-6 col-sm-6">
 									<div class="form-group">
-										<label for="name">Tên</label>
-										<input type="text" class="form-control" id="name" name="name" placeholder="Điền tên">
+										<label for="name">Name</label>
+										<input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
 									</div>
 									<div class="form-group">
 										<label for="email">Email</label>
-										<input type="email" class="form-control" id="email" name="email" placeholder="Điền email">
+										<input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
 									</div>
 									<div class="form-group">
-										<label for="phone">Điện thoại</label>
-										<input type="text" class="form-control" id="phone" name="phone" placeholder="Điền số điện thoại">
+										<label for="phone">Phone</label>
+										<input type="text" class="form-control" id="phone" name="phone" placeholder="Enter phone">
 									</div>
 								</div>
 								<div class="col-md-6 col-sm-6">
 									<div class="form-group">
-										<label for="message">Lời nhắn</label>
-										<textarea class="form-control" id="message" name="message" rows="9" placeholder="Gửi đôi lời nhắn nhủ.."></textarea>
+										<label for="message">Message</label>
+										<textarea class="form-control" id="message" name="message" rows="9" placeholder="Enter message"></textarea>
 									</div>
 								</div>
 							</div>
 							<div class="text-center">
-								<button type="submit" class="btn btn-lg btn-theme">Gửi lời nhắn</button>
+								<button type="submit" class="btn btn-lg btn-theme">Send Message</button>
 							</div>
 						</form>
 												
