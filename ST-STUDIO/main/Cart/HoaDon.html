@@ -1,0 +1,163 @@
+<link href="../css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="./css/style.css" rel="stylesheet">
+<script src="../js/bootstrap.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!--Author      : @arboshiki-->
+<div id="invoice">
+
+    <div class="toolbar hidden-print">
+        <div class="text-right">
+            <button id="printInvoice" class="btn btn-info"><i class="fa fa-print"></i> IN </button>
+            <button class="btn btn-info"><i class="fa fa-file-pdf-o"></i> Xuất file PDF</button>
+        </div>
+        <hr>
+    </div>
+    <div class="invoice overflow-auto">
+        <div style="min-width: 600px">
+            <header>
+                <div class="row">
+                    <div class="col">
+                        <a target="_blank" href="../index.html">
+                            <img src="../img/logo/logo.png" data-holder-rendered="true" width="100" /> 
+                            </a>
+                    </div>
+                    <div class="col company-details">
+                        <h2 class="name">
+                            <a target="_blank" href="../index.html">
+                            ST-STUDIO
+                            </a>
+                        </h2>
+                        <div>279 Nguyễn Tri PhươngPhường 5, Quận 10, Thành phố Hồ Chí Minh </div>
+                        <div>84.28.38295299</div>
+                        <div>info@ueh.edu.vn</div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="row contacts">
+                    <div class="col invoice-to">
+                        <div class="text-gray-light">KHÁCH HÀNG:</div>
+                        <h2 class="to">NGUYỄN BẢO LONG</h2>
+                        <div class="address">59C Nguyễn Ðình Chiểu, phường 6, quận 3, TP. Hồ Chí Minh</div>
+                        <div class="email"><a href="#">info@ueh.edu.vn</a></div>
+                    </div>
+                    <div class="col invoice-details">
+                        <h1 class="invoice-id">Hoá Đơn 96-69</h1>
+                        <div class="date">Ngày tạo hoá đơn: 01/10/2020</div>
+                        <div class="date">Ngày xuất hoá đơn: 30/10/2020</div>
+                    </div>
+                </div>
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th class="text-left">Sản phẩm</th>
+                            <th class="text-right">Giá</th>
+                            <th class="text-right">Số lượng</th>
+                            <th class="text-right">Tổng Tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="no">01</td>
+                            <td class="text-left"><h3>
+                                <a target="_blank" href="#">
+                                    Sơn Tùng M-TP: Sky Tour Movie
+                                </a>
+                                </h3>
+                               <a target="_blank" href="#">
+                                Hòa nhạc,Phim tài liệu,Phim Việt Nam,Âm nhạc & nhạc kịch
+                               </a> 
+                               M-TP Entertainment phát hành vào ngày 12 tháng 6 năm 2020.
+                            </td>
+                            <td class="unit">300.000 VND</td>
+                            <td class="qty">100</td>
+                            <td class="total">300.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="no">02</td>
+                            <td class="text-left"><h3>
+                                <a target="_blank" href="#">
+                                    Sơn Tùng M-TP: Sky Tour Movie
+                                </a>
+                                </h3>
+                               <a target="_blank" href="#">
+                                Hòa nhạc,Phim tài liệu,Phim Việt Nam,Âm nhạc & nhạc kịch
+                               </a> 
+                               M-TP Entertainment phát hành vào ngày 12 tháng 6 năm 2020.
+                            </td>
+                            <td class="unit">300.000 VND</td>
+                            <td class="qty">100</td>
+                            <td class="total">300.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="no">03</td>
+                            <td class="text-left"><h3>
+                                <a target="_blank" href="#">
+                                    Sơn Tùng M-TP: Sky Tour Movie
+                                </a>
+                                </h3>
+                               <a target="_blank" href="#">
+                                Hòa nhạc,Phim tài liệu,Phim Việt Nam,Âm nhạc & nhạc kịch
+                               </a> 
+                               M-TP Entertainment phát hành vào ngày 12 tháng 6 năm 2020.
+                            </td>
+                            <td class="unit">300.000 VND</td>
+                            <td class="qty">100</td>
+                            <td class="total">300.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="no">04</td>
+                            <td class="text-left"><h3>
+                                <a target="_blank" href="#">
+                                    Sơn Tùng M-TP: Sky Tour Movie
+                                </a>
+                                </h3>
+                               <a target="_blank" href="#">
+                                Hòa nhạc,Phim tài liệu,Phim Việt Nam,Âm nhạc & nhạc kịch
+                               </a> 
+                               M-TP Entertainment phát hành vào ngày 12 tháng 6 năm 2020.
+                            </td>
+                            <td class="unit">300.000 VND</td>
+                            <td class="qty">100</td>
+                            <td class="total">300.000 VND</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="2">Tạm tính</td>
+                            <td>1.200.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="2">Thuế 10%</td>
+                            <td>12.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="2">Giao hàng</td>
+                            <td>0 VND</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="2">Tổng cộng</td>
+                            <td>1.212.000 VND</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="thanks">Thank you!</div>
+                <div class="notices">
+                    <div>Lưu ý:</div>
+                    <div class="notice">Vui lòng nghe máy khi shipper giao hàng bạn nhé.</div>
+                </div>
+            </main>
+            <footer>
+               Nếu bạn cần hoá đơn đỏ, vui lòng liên hệ chúng tôi ! infor@ueh.edu.vn.
+            </footer>
+        </div>
+        <!--DO NOT DELETE THIS div. IT is responsible for showing footer always at the bottom-->
+        <div></div>
+    </div>
+</div>

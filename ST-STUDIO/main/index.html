@@ -25,11 +25,13 @@
 	<link href="css/style-color.css" rel="stylesheet">
 
 
+
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="img/logo/favicon.ico">
 </head>
 
 <body>
+
 	<!-- modal for booking ticket form -->
 	<div class="modal fade" id="bookTicket" tabindex="-1" role="dialog" aria-labelledby="BookTicket">
 		<div class="modal-dialog" role="document">
@@ -38,8 +40,7 @@
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
 							aria-hidden="true">&times;</span></button>
 					<h4 class="modal-title" id="myModalLabel">ĐẶT VÉ SỰ KIỆN &nbsp; <small><span
-								class="label label-success">Available</span> &nbsp; <span class="label label-danger">Not
-								Available</span></small></h4>
+								class="label label-success">Còn chỗ</span> &nbsp; <span class="label label-danger">Hết chỗ</span></small></h4>
 				</div>
 				<!-- form for events ticket booking -->
 				<form>
@@ -48,6 +49,11 @@
 							<label for="exampleInputEmail1">Email</label>
 							<input type="email" class="form-control" id="exampleInputEmail1"
 								placeholder="example@mail.com">
+						</div>
+						<div class="form-group">
+							<label for="exampleAdress">Email</label>
+							<input type="email" class="form-control" id="adress"
+								placeholder="279 Nguyễn Tri Phương">
 						</div>
 						<div class="form-group">
 							<label for="exampleInputContact">Điện thoại</label>
@@ -78,7 +84,8 @@
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
 						<!-- link to payment gatway here -->
-						<button type="button" class="btn btn-primary" data-dismiss="modal">Đặt ngay</button>
+						<button type="button" class="btn btn-primary" data-dismiss="modal"> Đặt ngay</button> 
+						<a  href="./Cart/HoaDon.html"> Xem HOÁ ĐƠN</a>
 					</div>
 				</form>
 			</div>
@@ -132,13 +139,13 @@
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
+						<ul class="nav navbar-nav navbar-right">							
 							<li><a href="#featuredalbum">Âm nhạc đề xuất</a></li>
-							<li><a href="#latestalbum">Bảng xếp hạng</a></li>
-							<li><a href="#joinus">Join Us</a></li>
+							<li><a href="#latestalbum">Bảng xếp hạng</a></li>						
 							<li><a href="#portfolio">Sự kiện</a></li>
-							<li><a href="#events">Tin tức</a></li>
+							<li><a href="#news">Tin tức</a></li>
 							<li><a href="#team">Nghệ sĩ nổi bật</a></li>
+							<li><a href="./seach.html">Tìm kiếm</a></li>
 							<li><a href="#contact">Liên hệ</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -199,435 +206,6 @@
 
 
 
-
-
-		<!-- featured abbum -->
-		<div class="featured pad" id="featuredalbum">
-			<div class="container">
-				<!-- default heading -->
-				<div class="default-heading">
-					<!-- heading -->
-					<h2>Âm nhạc đề xuất</h2>
-					<!-- paragraph -->
-					<p> Chúng ta hát những <strong class="theme-color">Bài hát</strong> hay nhất và giờ chúng ta điều
-						khiển <strong class="theme-color">Âm nhạc</strong> đỉnh nhất Thế giới.</p>
-				</div>
-
-				<!-- featured album elements -->
-				<div class="featured-element">
-					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<!-- featured item -->
-							<div class="featured-item ">
-								<!-- image container -->
-								<div class="figure">
-									<!-- image -->
-									<img class="img-responsive" src="img/featured/1.jpg" alt="" />
-
-								</div>
-								<!-- featured information -->
-								<div class="featured-item-info">
-									<!-- featured title -->
-									<h4>Câu lạc bộ hits vol 5</h4>
-									<!-- horizontal line -->
-									<hr />
-									<!-- some responce from social medial or web likes -->
-									<p>1824+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span
-											class="label label-theme">Share</span></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<!-- featured item -->
-							<div class="featured-item ">
-								<!-- image container -->
-								<div class="figure">
-									<!-- image -->
-									<img class="img-responsive" src="img/featured/2.jpg" alt="" />
-									<!-- paragraph -->
-
-								</div>
-								<!-- featured information -->
-								<div class="featured-item-info">
-									<!-- featured title -->
-									<h4>K-pop thời ấy vol.9</h4>
-									<!-- horizontal line -->
-									<hr />
-									<!-- some responce from social medial or web likes -->
-									<p>1010+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 745+ <span
-											class="label label-theme">Share</span></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<!-- featured item -->
-							<div class="featured-item ">
-								<!-- image container -->
-								<div class="figure">
-									<!-- image -->
-									<img class="img-responsive" src="img/featured/3.jpg" alt="" />
-									<!-- paragraph -->
-
-								</div>
-								<!-- featured information -->
-								<div class="featured-item-info">
-									<!-- featured title -->
-									<h4>Nhạc remix</h4>
-									<!-- horizontal line -->
-									<hr />
-									<!-- some responce from social medial or web likes -->
-									<p>624+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 495+ <span
-											class="label label-theme">Share</span></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<!-- featured item -->
-							<div class="featured-item ">
-								<!-- image container -->
-								<div class="figure">
-									<!-- image -->
-									<img class="img-responsive" src="img/featured/4.jpg" alt="" />
-									<!-- paragraph -->
-
-								</div>
-								<!-- featured information -->
-								<div class="featured-item-info">
-									<!-- featured title -->
-									<h4>psycho songs</h4>
-									<!-- horizontal line -->
-									<hr />
-									<!-- some responce from social medial or web likes -->
-									<p>596+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 216+ <span
-											class="label label-theme">Share</span></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<!-- featured item -->
-							<div class="featured-item ">
-								<!-- image container -->
-								<div class="figure">
-									<!-- image -->
-									<img class="img-responsive" src="img/featured/5.jpg" alt="" />
-									<!-- paragraph -->
-
-								</div>
-								<!-- featured information -->
-								<div class="featured-item-info">
-									<!-- featured title -->
-									<h4>hot usuk 11-2020</h4>
-									<!-- horizontal line -->
-									<hr />
-									<!-- some responce from social medial or web likes -->
-									<p>472+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 189+ <span
-											class="label label-theme">Share</span></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<!-- featured item -->
-							<div class="featured-item ">
-								<!-- image container -->
-								<div class="figure">
-									<!-- image -->
-									<img class="img-responsive" src="img/featured/6.jpg" alt="" />
-									<!-- paragraph -->
-
-								</div>
-								<!-- featured information -->
-								<div class="featured-item-info">
-									<!-- featured title -->
-									<h4>motivations</h4>
-									<!-- horizontal line -->
-									<hr />
-									<!-- some responce from social medial or web likes -->
-									<p>301+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 114+ <span
-											class="label label-theme">Share</span></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- features end -->
-		<!-- promo -->
-		<div class="promo parallax-one pad">
-			<div class="container">
-				<!-- promo element -->
-				<div class="promo-element ">
-					<!-- heading -->
-					<h3>Âm nhạc là nghệ thuật...</h3>
-					<!-- paragraph -->
-					<p>Âm nhạc là một dạng nghệ thuật và hoạt động thưởng thức trong mọi hoạt động cuộc sống.</p>
-					<!-- link -->
-					<a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a>
-				</div>
-			</div>
-		</div>
-		<!--/ promo end -->
-		<!-- Hero block area -->
-		<div id="latestalbum" class="hero pad">
-			<div class="container">
-				<!-- hero content -->
-				<div class="hero-content ">
-					<!-- heading -->
-					<h2>BẢNG XẾP HẠNG</h2>
-					<hr>
-
-				</div>
-				<!-- hero play list -->
-				<div class="hero-playlist">
-					<div class="row">
-						<div class="col-md-6 col-sm-6">
-							<!-- music album image -->
-							<div class="figure">
-								<!-- image -->
-								<img class="img-responsive" src="img/album/edm.jpg" alt="" />
-								<!-- disk image -->
-								<img class="img-responsive disk" src="img/album/disk.png" alt="" />
-							</div>
-							<!-- album details -->
-							<div class="album-details">
-								<!-- button -->
-								<a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i
-										class="fa fa-play"></i>&nbsp;Phát ngẫu nhiên</a>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6">
-						<!-- play list -->
-						<div class="playlist-content">
-							<ul class="list-unstyled">
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Nếu ngày ấy</h4>
-										<p><strong>Album</strong>: Nếu ngày ấy &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Soobin Hoàng Sơn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Em đã biết</h4>
-										<p><strong>Album</strong>: Em đã biết &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Suni Hạ Linh </p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Anh là kẻ nói dối</h4>
-										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Vũ Duy Khánh</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Liệu giờ</h4>
-										<p><strong>Album</strong>: Liệu giờ &nbsp;|&nbsp; <strong>Loại</strong>: R&B/Soul &nbsp;|&nbsp; <strong>Ca sĩ</strong>: 2T ft VAN</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Ta còn yêu nhau</h4>
-										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Đức Phúc</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Thì thôi</h4>
-										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Indie &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Reddy</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Không yêu đừng gây nhớ thương</h4>
-										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Lyly ft Karik</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-								<li class="playlist-number">
-									<!-- song information -->
-									<div class="song-info">
-										<!-- song title -->
-										<h4>Chia tay</h4>
-										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Bùi Anh Tuấn</p>
-									</div>
-									<!-- music icon -->
-									<div class="music-icon">
-										<a href="#"><i class="fa fa-play"></i></a>
-										<a href="#"><i class="fa fa-pause"></i></a>
-									</div>
-									<div class="clearfix"></div>
-								</li>
-							</ul>
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/ hero end -->
-
-		<!-- call to action -->
-		<div class="cta parallax-one pad">
-			<div class="container">
-				<!-- cta element -->
-				<div class="cta-element ">
-					<div class="row">
-						<div class="col-md-9 col-sm-8">
-							<!-- heading -->
-							<h3>ST Studio, lựa chọn tuyệt vời nhất của bạn!</h3>
-							<!-- paragraph -->
-							<p>Với ST Studio trải nghiệm âm nhạc tuyệt vời của bạn là niềm tự hào của chúng tôi.</p>
-						</div>
-						<div class="col-md-3 col-sm-4">
-							<div class="cta-btn text-center">
-								<!-- purchase now button -->
-								<a href="#" class="btn btn-default btn-lg">Đăng kí</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/ cta end -->
-
-		<!-- work with us -->
-		<div class="work-with-us pad" id="joinus">
-			<div class="container">
-				<!-- default heading -->
-				<div class="default-heading">
-					<!-- heading -->
-					<h2>Khác biệt - Tạo nên sự khác biệt</h2>
-				</div>
-				<!-- why work with us content -->
-				<div class="why-content">
-					<!-- paragraph -->
-					<p class="why-message">"Chúng tôi tiên phong trong việc đem đến âm nhạc đỉnh cao cho tâm hồn của
-						bạn"</p>
-					<div class="row">
-						<div class="col-md-3 col-sm-6">
-							<!-- why work with us item -->
-							<div class="why-item  delay-one">
-								<span class="why-number">1</span>
-								<!-- paragraph -->
-								<p>ST-STUDIO cung cấp âm nhạc bản quyền hơn 2000 nghệ sĩ trong và ngoài nước với hơn
-									100.000 bài hát thuộc 43 thể loại âm nhạc khác nhau.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<!-- why work with us item -->
-							<div class="why-item  delay-two">
-								<span class="why-number">2</span>
-								<!-- paragraph -->
-								<p>Luôn luôn cập nhật những ca khúc, tác phẩm âm nhạc xuất bản sớm nhất trên thị trường,
-									chỉ sau 24h ngay khi tác phẩm được công bố ra mắt.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<!-- why work with us item -->
-							<div class="why-item  delay-three">
-								<span class="why-number">3</span>
-								<!-- paragraph -->
-								<p>Đội ngũ của ST-STUDIO với bề dày 5+ năm kinh nghiệm trong lĩnh vực âm nhạc, luôn chọn
-									lọc những tác phẩm tiêu biểu nhất, nổi bật nhất đến với các bạn.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<!-- why work with us item -->
-							<div class="why-item  delay-four">
-								<span class="why-number">4</span>
-								<!-- paragraph -->
-								<p>Tất cả tác phẩm âm nhạc tại ST-STUDIO đều có chất lượng lossless, đảm bảo mang laij
-									cho bạn những trải nghiệm chưa từng có.</p>
-							</div>
-						</div>
-					</div>
-					<!-- apply button -->
-					<div class="apply-btn">
-						<!-- button line -->
-						<a class="btn btn-lg btn-theme" href="#">Đăng kí ngay</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/ end work with us -->
-
-		<!-- news letter -->
-		<div class="news-letter">
-			<div class="container">
-				<!-- news letter inner content -->
-				<div class="news-content ">
-					<!-- heading -->
-					<h3>Đăng kí để nhận Thư Tin tức</h3>
-					<!-- paragraph -->
-					<p><strong>Liên hệ với chúng tôi</strong> và cho chúng tôi biết nếu bạn có bất kỳ câu hỏi nào, đừng
-						quên Đăng ký để nhận được nhiều nội dung tuyệt vời hơn bằng cách nhập Thư dưới đây.</p>
-					<!-- subscribe form -->
-					<form>
-						<div class="input-group">
-							<input type="text" class="form-control input-lg" placeholder="Email">
-							<span class="input-group-btn">
-								<button class="btn btn-default btn-lg" type="button">Đăng kí</button>
-							</span>
-						</div><!-- /input-group -->
-					</form>
-				</div>
-			</div>
-		</div>
-		<!-- news letter end -->
 
 		<div class="portfolio pad" id="portfolio">
 			<div>
@@ -791,8 +369,326 @@
 		</div>
 		<!-- work with us end -->
 
+		<!-- featured abbum -->
+		<div class="featured pad" id="featuredalbum">
+			<div class="container">
+				<!-- default heading -->
+				<div class="default-heading">
+					<!-- heading -->
+					<h2>Có thể bạn sẽ thích</h2>
+					<!-- paragraph -->
+					<p> Chúng ta hát những <strong class="theme-color">Bài hát</strong> hay nhất và giờ chúng ta được nghe loại <strong class="theme-color">Âm nhạc</strong> đỉnh nhất Thế giới.</p>
+				</div>
+
+				<!-- featured album elements -->
+				<div class="featured-element">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<!-- featured item -->
+							<div class="featured-item ">
+								<!-- image container -->
+								<div class="figure">
+									<!-- image -->
+									<img class="img-responsive" src="img/featured/1.jpg" alt="" />
+
+								</div>
+								<!-- featured information -->
+								<div class="featured-item-info">
+									<!-- featured title -->
+									<h4><a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a> Câu lạc bộ hits vol 5</h4>
+									<!-- horizontal line -->
+									<hr />
+									<!-- some responce from social medial or web likes -->
+									<p>1824+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span
+											class="label label-theme">Share</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<!-- featured item -->
+							<div class="featured-item ">
+								<!-- image container -->
+								<div class="figure">
+									<!-- image -->
+									<img class="img-responsive" src="img/featured/2.jpg" alt="" />
+									<!-- paragraph -->
+
+								</div>
+								<!-- featured information -->
+								<div class="featured-item-info">
+									<!-- featured title -->
+									<h4><a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a> K-pop thời ấy vol.9</h4>
+									<!-- horizontal line -->
+									<hr />
+									<!-- some responce from social medial or web likes -->
+									<p>1010+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 745+ <span
+											class="label label-theme">Share</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<!-- featured item -->
+							<div class="featured-item ">
+								<!-- image container -->
+								<div class="figure">
+									<!-- image -->
+									<img class="img-responsive" src="img/featured/3.jpg" alt="" />
+									<!-- paragraph -->
+
+								</div>
+								<!-- featured information -->
+								<div class="featured-item-info">
+									<!-- featured title -->
+									<h4><a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a> Nhạc remix</h4>
+									<!-- horizontal line -->
+									<hr />
+									<!-- some responce from social medial or web likes -->
+									<p>624+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 495+ <span
+											class="label label-theme">Share</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<!-- featured item -->
+							<div class="featured-item ">
+								<!-- image container -->
+								<div class="figure">
+									<!-- image -->
+									<img class="img-responsive" src="img/featured/4.jpg" alt="" />
+									<!-- paragraph -->
+
+								</div>
+								<!-- featured information -->
+								<div class="featured-item-info">
+									<!-- featured title -->
+									<h4><a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a> psycho songs</h4>
+									<!-- horizontal line -->
+									<hr />
+									<!-- some responce from social medial or web likes -->
+									<p>596+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 216+ <span
+											class="label label-theme">Share</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<!-- featured item -->
+							<div class="featured-item ">
+								<!-- image container -->
+								<div class="figure">
+									<!-- image -->
+									<img class="img-responsive" src="img/featured/5.jpg" alt="" />
+									<!-- paragraph -->
+
+								</div>
+								<!-- featured information -->
+								<div class="featured-item-info">
+									<!-- featured title -->
+									<h4><a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a> hot usuk 11-2020</h4>
+									<!-- horizontal line -->
+									<hr />
+									<!-- some responce from social medial or web likes -->
+									<p>472+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 189+ <span
+											class="label label-theme">Share</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<!-- featured item -->
+							<div class="featured-item ">
+								<!-- image container -->
+								<div class="figure">
+									<!-- image -->
+									<img class="img-responsive" src="img/featured/6.jpg" alt="" />
+									<!-- paragraph -->
+
+								</div>
+								<!-- featured information -->
+								<div class="featured-item-info">
+									<!-- featured title -->
+									<h4><a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a> motivations</h4>									
+									<!-- horizontal line -->
+									<hr />
+									<!-- some responce from social medial or web likes -->
+									<p>301+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 114+ <span
+											class="label label-theme">Share</span></p>											
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- features end -->
+		<!-- promo -->
+		<div class="promo parallax-one pad">
+			<div class="container">
+				<!-- promo element -->
+				<div class="promo-element ">
+					<!-- heading -->
+					<h3>Âm nhạc là nghệ thuật...</h3>
+					<!-- paragraph -->
+					<p>Âm nhạc là một dạng nghệ thuật và hoạt động thưởng thức trong mọi hoạt động cuộc sống.</p>
+					<!-- link -->
+				</div>
+			</div>
+		</div>
+		<!--/ promo end -->
+		<!-- Hero block area -->
+		<div id="latestalbum" class="hero pad">
+			<div class="container">
+				<!-- hero content -->
+				<div class="hero-content ">
+					<!-- heading -->
+					<h2>BẢNG XẾP HẠNG</h2>
+					<hr>
+
+				</div>
+				<!-- hero play list -->
+				<div class="hero-playlist">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<!-- music album image -->
+							<div class="figure">
+								<!-- image -->
+								<img class="img-responsive" src="img/album/edm.jpg" alt="" />
+								<!-- disk image -->
+								<img class="img-responsive disk" src="img/album/disk.png" alt="" />
+							</div>
+							<!-- album details -->
+							<div class="album-details">
+								<!-- button -->
+								<a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i
+										class="fa fa-play"></i>&nbsp;Phát ngẫu nhiên</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+						<!-- play list -->
+						<div class="playlist-content">
+							<ul class="list-unstyled">
+								<li class="playlist-number">
+									<!-- song information -->
+									<div class="song-info">
+										<!-- song title -->
+										<h4>Nếu ngày ấy</h4>
+										<p><strong>Album</strong>: Nếu ngày ấy &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Soobin Hoàng Sơn</p>
+									</div>
+									<!-- music icon -->
+									<div class="music-icon">
+										<a href="#"><i class="fa fa-play"></i></a>
+										<a href="#"><i class="fa fa-pause"></i></a>
+									</div>
+									<div class="clearfix"></div>
+								</li>
+								<li class="playlist-number">
+									<!-- song information -->
+									<div class="song-info">
+										<!-- song title -->
+										<h4>Em đã biết</h4>
+										<p><strong>Album</strong>: Em đã biết &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Suni Hạ Linh </p>
+									</div>
+									<!-- music icon -->
+									<div class="music-icon">
+										<a href="#"><i class="fa fa-play"></i></a>
+										<a href="#"><i class="fa fa-pause"></i></a>
+									</div>
+									<div class="clearfix"></div>
+								</li>
+								<li class="playlist-number">
+									<!-- song information -->
+									<div class="song-info">
+										<!-- song title -->
+										<h4>Anh là kẻ nói dối</h4>
+										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Vũ Duy Khánh</p>
+									</div>
+									<!-- music icon -->
+									<div class="music-icon">
+										<a href="#"><i class="fa fa-play"></i></a>
+										<a href="#"><i class="fa fa-pause"></i></a>
+									</div>
+									<div class="clearfix"></div>
+								</li>
+								<li class="playlist-number">
+									<!-- song information -->
+									<div class="song-info">
+										<!-- song title -->
+										<h4>Liệu giờ</h4>
+										<p><strong>Album</strong>: Liệu giờ &nbsp;|&nbsp; <strong>Loại</strong>: R&B/Soul &nbsp;|&nbsp; <strong>Ca sĩ</strong>: 2T ft VAN</p>
+									</div>
+									<!-- music icon -->
+									<div class="music-icon">
+										<a href="#"><i class="fa fa-play"></i></a>
+										<a href="#"><i class="fa fa-pause"></i></a>
+									</div>
+									<div class="clearfix"></div>
+								</li>
+								<li class="playlist-number">
+									<!-- song information -->
+									<div class="song-info">
+										<!-- song title -->
+										<h4>Ta còn yêu nhau</h4>
+										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Đức Phúc</p>
+									</div>
+									<!-- music icon -->
+									<div class="music-icon">
+										<a href="#"><i class="fa fa-play"></i></a>
+										<a href="#"><i class="fa fa-pause"></i></a>
+									</div>
+									<div class="clearfix"></div>
+								</li>
+								<li class="playlist-number">
+									<!-- song information -->
+									<div class="song-info">
+										<!-- song title -->
+										<h4>Thì thôi</h4>
+										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Indie &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Reddy</p>
+									</div>
+									<!-- music icon -->
+									<div class="music-icon">
+										<a href="#"><i class="fa fa-play"></i></a>
+										<a href="#"><i class="fa fa-pause"></i></a>
+									</div>
+									<div class="clearfix"></div>
+								</li>
+								<li class="playlist-number">
+									<!-- song information -->
+									<div class="song-info">
+										<!-- song title -->
+										<h4>Không yêu đừng gây nhớ thương</h4>
+										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Lyly ft Karik</p>
+									</div>
+									<!-- music icon -->
+									<div class="music-icon">
+										<a href="#"><i class="fa fa-play"></i></a>
+										<a href="#"><i class="fa fa-pause"></i></a>
+									</div>
+									<div class="clearfix"></div>
+								</li>
+								<li class="playlist-number">
+									<!-- song information -->
+									<div class="song-info">
+										<!-- song title -->
+										<h4>Chia tay</h4>
+										<p><strong>Album</strong>: Không &nbsp;|&nbsp; <strong>Loại</strong>: Pop &nbsp;|&nbsp; <strong>Ca sĩ</strong>: Bùi Anh Tuấn</p>
+									</div>
+									<!-- music icon -->
+									<div class="music-icon">
+										<a href="#"><i class="fa fa-play"></i></a>
+										<a href="#"><i class="fa fa-pause"></i></a>
+									</div>
+									<div class="clearfix"></div>
+								</li>
+							</ul>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ hero end -->
+		
+
 		<!-- events -->
-		<div class="events parallax-three pad" id="events">
+		<div class="events parallax-three pad" id="news">
 			<div class="container">
 				<!-- default heading -->
 				<div class="default-heading-shadow">
@@ -817,7 +713,7 @@
 									<!-- event location -->
 									<span class="event-location"><i class="fa fa-map-marker"></i> Hàn Quốc</span>
 									<!-- image -->
-									<img class="img-responsive" src="img\event\tintuc1.png" alt="" />
+									<img class="img-responsive" src="./img/event/Tintuc1.png" alt="" />
 									<!-- image hover -->
 									<div class="img-hover">
 										<!-- hover icon -->
@@ -856,7 +752,7 @@
 									<!-- event location -->
 									<span class="event-location"><i class="fa fa-map-marker"></i> Việt Nam</span>
 									<!-- image -->
-									<img class="img-responsive" src="img\event\tintuc2.png" alt="" />
+									<img class="img-responsive" src="./img/event/Tintuc2.png" alt="" />
 									<!-- image hover -->
 									<div class="img-hover">
 										<!-- hover icon -->
@@ -894,7 +790,7 @@
 									<!-- event location -->
 									<span class="event-location"><i class="fa fa-map-marker"></i>Hàn Quốc</span>
 									<!-- image -->
-									<img class="img-responsive" src="img\event\tintuc3.png" alt="" />
+									<img class="img-responsive" src="./img/event/Tintuc3.png" alt="" />
 									<!-- image hover -->
 									<div class="img-hover">
 										<!-- hover icon -->
@@ -931,7 +827,7 @@
 									<!-- event location -->
 									<span class="event-location"><i class="fa fa-map-marker"></i> Việt Nam</span>
 									<!-- image -->
-									<img class="img-responsive" src="img\event\tintuc4.png" alt="" />
+									<img class="img-responsive" src="./img/event/Tintuc4.png" alt="" />
 									<!-- image hover -->
 									<div class="img-hover">
 										<!-- hover icon -->
@@ -1065,7 +961,29 @@
 		</div>
 
 		<!-- about end -->
-
+<!-- call to action -->
+<div class="cta parallax-one pad">
+	<div class="container">
+		<!-- cta element -->
+		<div class="cta-element ">
+			<div class="row">
+				<div class="col-md-9 col-sm-8">
+					<!-- heading -->
+					<h3>ST Studio, lựa chọn tuyệt vời nhất của bạn!</h3>
+					<!-- paragraph -->
+					<p>Với ST Studio trải nghiệm âm nhạc tuyệt vời của bạn là niềm tự hào của chúng tôi.</p>
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="cta-btn text-center">
+						<!-- purchase now button -->
+						<a href="#" class="btn btn-default btn-lg">Đăng kí</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--/ cta end -->
 		<!-- meet -->
 		<div class="meet parallax-four pad" id="meet">
 			<div class="container">
@@ -1100,7 +1018,29 @@
 	</div>
 	</div>
 	<!-- meet end -->
-
+<!-- news letter -->
+<div class="news-letter">
+	<div class="container">
+		<!-- news letter inner content -->
+		<div class="news-content ">
+			<!-- heading -->
+			<h3>Đăng kí để nhận Thư Tin tức</h3>
+			<!-- paragraph -->
+			<p><strong>Liên hệ với chúng tôi</strong> và cho chúng tôi biết nếu bạn có bất kỳ câu hỏi nào, đừng
+				quên Đăng ký để nhận được nhiều nội dung tuyệt vời hơn bằng cách nhập Thư dưới đây.</p>
+			<!-- subscribe form -->
+			<form>
+				<div class="input-group">
+					<input type="text" class="form-control input-lg" placeholder="Email">
+					<span class="input-group-btn">
+						<button class="btn btn-default btn-lg" type="button">Đăng kí</button>
+					</span>
+				</div><!-- /input-group -->
+			</form>
+		</div>
+	</div>
+</div>
+<!-- news letter end -->
 	<!-- contact -->
 	<div class="contact pad" id="contact">
 		<div class="container">
